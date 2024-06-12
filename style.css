@@ -70,23 +70,29 @@ header .navigation .navigation-items a:hover{
   color: transparent;
 }
 
-.slider-video{
-  width: 110rem;
-  max-width: 200rem;
-  height: auto;
-}
-
-
 
 .home{
   position: relative;
-  width:100%;
+  width: 100%;
   min-height: 100vh;
   display: flex;
   justify-content: start;
   flex-direction: column;
   display:inline-block;
   color: white;
+  
+}
+
+.home .vid{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.slider-video{
+  width: 110rem;
+  width: 100%;
+  height: auto;
 }
 
 .home .content{
@@ -488,6 +494,10 @@ background-color: #212529;
 .fa-plus:before {
 content: none;
 }
+
+
+
+  
 
 
 
